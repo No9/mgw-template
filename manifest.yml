@@ -1,6 +1,6 @@
----
 applications:
-  name: microgateway
+- disk_quota: 1024M
+  name: microgateway-svc
   command: npm start
   path: .
   instances: 1
