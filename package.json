@@ -1,0 +1,28 @@
+{
+  "name": "mgw-template",
+  "version": "1.0.0",
+  "description": "A deployable apiconnect microgateway template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No9/mgw-template.git"
+  },
+  "keywords": [
+    "apiconnect",
+    "microgateway",
+    "api"
+  ],
+  "author": "anton whalley",
+  "license": "SEE LICENCE IN LICENCE.txt ",
+  "bugs": {
+    "url": "https://github.com/No9/mgw-template/issues"
+  },
+  "homepage": "https://github.com/No9/mgw-template#readme",
+  "dependencies": {
+    "microgateway": "^1.0.5"
+  }
+}

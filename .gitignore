@@ -31,3 +31,8 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# apiconnect 
+.apiconnect
+.datastore
+test_1.0.0.yaml
