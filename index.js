@@ -1,6 +1,7 @@
 var spawn = require('child_process').spawn;
 var conf = {};
-
+// This can be configured to any port you would like but the sample will stop working.
+process.env.PORT=1337;
 conf.cwd = __dirname + '/node_modules/microgateway';
 process.env.CONFIG_DIR = __dirname;
 
